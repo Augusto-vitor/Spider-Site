@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    
+    margin: 0;
+}
+
+body {
+    background-image: url(../IMG/Spider.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    
+}
+
+header {
+    text-align: center;
+    background-image: url(../IMG.GIF/Spider.gif);
+    padding: 7%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(173, 6, 6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    image-orientation: from-image;
+}
+nav ul {
+    display: flex;
+    gap: 18%;
+    padding-left: 10%;
+    list-style: none;
+    text-decoration:none;
+}
+
+  a:hover {
+    background-color: rgb(1, 24, 153);
+    color: black;
+    border-radius: 4px 4px 4px 4px;
+    list-style: none;
+    
+  }
